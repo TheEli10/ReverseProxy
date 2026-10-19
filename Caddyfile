@@ -1,6 +1,0 @@
-:{$PORT} {
-    reverse_proxy https://b2dec807-8130-4501-803a-f059ac468dd7.fly.dev {
-        header_up Host b2dec807-8130-4501-803a-f059ac468dd7.fly.dev
-        header_up X-Real-IP {remote_host}
-    }
-}
